@@ -9,14 +9,26 @@
 <body>  
   <main>    
     <section id='content'>     
-      <div id='guess'>
-        <h1>Can you guess this <span id='hero'>HERO's</span> or <span id='villain'>VILLAIN's</span> name?</h1>       
+      <div id='title'>
+        <h1>Our Database has 731 character's from many universes.<br> Let your imagination fly!</h1>       
       </div>
-      <div class='card'>
-        <img id='image'>
-        <p id='name'>Character's name</p>
-      </div>
-      <button id='random-btn'>Get a random Character</button>
+      <div id='char-info'>
+        <div id='card'>
+          <img id='image'>
+          <input id='input' type="text" placeholder='      Type the name here!'> 
+          <p style='font-size: 20px;'>OR</p>      
+          <button id='random-btn'>Get a random Character</button>
+        </div>
+        <div id='info-content'>
+          <p id='info'></p>
+          <br>
+          <p id='info2'></p>
+          <br>
+          <p id='info3'></p>
+          <br>
+          <p id='info4'></p>
+        </div> 
+      </div>   
     </section>
   </main>
   <script type='module' src='./src/main.js'></script>
