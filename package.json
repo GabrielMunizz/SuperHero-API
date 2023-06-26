@@ -1,0 +1,25 @@
+{
+  "name": "superhero-api",
+  "version": "1.0.0",
+  "description": "Testando minhas skills com FETCH para manipular uma API de Super-Heróis. =]",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielMunizz/SuperHero-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrielMunizz/SuperHero-API/issues"
+  },
+  "homepage": "https://github.com/GabrielMunizz/SuperHero-API#readme",
+  "dependencies": {
+    "sweetalert2": "^11.7.12",
+    "vite": "^4.3.9"
+  }
+}
